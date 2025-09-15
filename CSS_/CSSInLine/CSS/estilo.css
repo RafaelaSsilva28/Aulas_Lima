@@ -1,0 +1,16 @@
+ body{
+            background-color: rgb(207, 180, 232);
+            text-align: center;
+        }
+        /*SELETOR ID*/
+        #imagem{
+            border-radius: 50%;
+        }
+        /*SELETOR - CLASSE*/
+        .quadrado {
+            border: 2px solid #6c1616;    /*COLOCANDO BORDA E FORMATO*/
+            border-radius: 20px; /*DEIXANDO REDONDO AS BORDAS*/
+            background-color: #d8a0a0; /*colocando cor de fundo*/
+            width: 320px;
+            
+        }
