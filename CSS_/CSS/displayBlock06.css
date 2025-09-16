@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid #020202;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+
+}

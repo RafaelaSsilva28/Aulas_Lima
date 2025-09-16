@@ -1,0 +1,38 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    background-color: #F6C453;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.faixa{
+        text-align: center ;
+    width: 100%;
+    height: 160px;
+    background-color: bisque;
+
+  }
+
+  .faixa2 {
+   text-align: center;
+    color: #ffff0d;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .faixa3 {
+    text-align: center;
+    border: #15ff0d;
+    background-color: #c69e7c;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+   }
+
+  .logo{
+    margin: 0;
+    background-color: #993535;
+    width: 20;
+    height: 30;
+  }
