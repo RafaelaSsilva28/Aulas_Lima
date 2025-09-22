@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(249, 199, 231);
+}
+h1{
+    color: rgb(77, 0, 149);
+    text-align: center;
+}
+
+.faixa{
+    text-align: center;
+    background-color: #b49ce9;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    border: 20px solid #932497;
+    border-bottom: 25px solid #9652c1;
+    width: 20%;
+}
+
+  #butao {
+    position: relative ;
+    top: -100px;
+    left: 200px;
+    
+    background-color: #a09abe;
+  }
+#butao1 {
+    position: relative ;
+    top: -100px;
+    left: 200px;  
+     background-color: #a09abe;   
+  }
+#butao2 {
+    position: relative ;
+    top: -100px;
+    left: 200px;
+     background-color: #a09abe;
+  }
+#butao3 {
+    position: relative ;
+    top: -100px;
+    left: 200px;
+    background-color: #a09abe;
+  }
+
+.faixa2{
+    text-align: center;
+    background-color: #b49ce9;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    border: 20px solid #932497;
+    border-bottom: 25px solid #9652c1;
+    width: 20%;
+    
+    justify-content: space-between;
+}

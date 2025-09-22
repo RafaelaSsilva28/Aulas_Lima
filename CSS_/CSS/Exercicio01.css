@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(228, 210, 182);
+}
+.faixa{
+    text-align: center;
+    background-color: #c69e7c;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    border: 20px solid #4A2C29;
+    border-bottom: 25px solid #4A2C29;
+    width: 106%;
+}
+.faixa3 {
+    text-align: center;
+    background-color: #c69e7c;
+    color: #000000;
+    font-size: 20px;
+    font-style: italic;
+    border: 20px solid #4A2C29;
+    border-bottom: 25px solid #4A2C29;
+    width: 106%;
+   }
+
