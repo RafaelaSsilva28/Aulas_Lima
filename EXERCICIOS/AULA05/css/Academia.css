@@ -35,7 +35,16 @@ h1{
     
 
 }
+.item:hover{
+   font-style: italic;
+   font-size: 20px;
+    color: rgb(0, 0, 148);
+    padding: 10px;
+    background-color: #c8dce0;
+    border-radius: 5px;
+    
 
+}
 h3{
     font-size: 40px;
     color: #d3c3fc;
@@ -57,6 +66,7 @@ table{
    
 
 }
+
 
 footer{
      
