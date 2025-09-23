@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;    
+    background-color: rgb(241, 183, 214);
+}
+
+h1, h2{
+    color: rgb(91, 8, 168);
+}
+h1{
+    text-align: center;
+}
+
+.item{
+    background-color: rgb(219, 133, 216);
+    color: rgb(2, 19, 104);
+    padding: 20px;  /*cria um quadrado (elemento)*/
+    border-radius: 10px;   /*arredonda as bordas de um elemento*/
+    flex: 1;  /*faz com que cresçam igualmente*/
+    text-align: center;   /*centraliza*/
+}
+.item2{
+    background-color: rgb(219, 133, 216);
+    color: rgb(2, 19, 104);
+    padding: 10px;  /*cria um quadrado (elemento)*/
+    border-radius: 5px;   /*arredonda as bordas de um elemento*/
+    text-align: center;   /*centraliza*/
+}
+
+.container{
+    display: flex;
+    gap: 20px;  /* separa elementos */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(183, 142, 219);
+}
+
+.justify{
+    justify-content: space-around;
+}
+
+.align-end{
+    align-items: flex-end;
+    justify-content: center;
+}
