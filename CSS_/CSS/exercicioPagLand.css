@@ -7,9 +7,22 @@
     border-radius: px;
      width: 100px;
 }
-header > nav {
+
+header{
+    position: fixed;
+}
+header div nav {
     display: flex;
     gap: 15px;
+    width: 100vw;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
 }
 body {
     margin: 0;
@@ -30,10 +43,11 @@ header {
     color: #ffff;
     box-shadow: 0 3px 4px #555;    
 }
-header > nav > a{
+header > div > nav > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    margin-right: 20px;
 }
 header > nav > a:hover {
     text-decoration: underline;
@@ -59,36 +73,84 @@ header > nav > a:hover {
 
 main {
     flex: 1;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     box-shadow: 0 4px 6px #aaa;
     border-radius: 8px;
     background: linear-gradient(to bottom, rgb(5, 5, 126), rgb(238, 28, 63));
-     border: 2px solid #807676;
+    border: 2px solid #807676;
 }
 
 h1{
-   padding-top: 30px;
+   padding-top: 100px;
    color: rgb(244, 248, 24);
    text-shadow: 0 2px #928c8c;
-   font-size: 50px;
+   font-size: 90px;
    font-weight: bold;
+   margin-left: 50px;
 }
 h2{
     padding-top: 20px;
     color: #f0f7b1;
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 150px;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .delivery{
-   width: 100px;
+   width: 300px;
+   display: flex;
+
 }
 h3{
-    margin-left: 15px;
+    margin-left: 160px;
     padding-top: 4px;
     font-weight: bold;
     color: #ceb28c;
-    font-size: 25px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.fras{
+     margin-top: 60px;
+     color: #f0f7b1;
+     font-size: 20px;
+     display: flex ;
+}
+
+.ped{
+    color: #c6c7f0;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: rgb(0, 24, 162);
+    box-shadow: 0 3px 4px #555;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.ped:hover{
+    background-color: rgb(232, 84, 64);
+     transform: scaleY(-2px);
+     color: rgb(0, 0, 0);
+}
+
+.burguer{
+    display: block;
+    margin-left: 780px;
+    margin-top: -500px;
+     /* transform:rotate(5deg); */
+    
+}
+.bloc{
+    background-color: #cf0501;
+padding: -100px;
 }
